@@ -27,7 +27,7 @@ function draw(e) {
   ctx.moveTo(e.clientX, e.clientY);
 }
 
-clearBtn.addEventListener('click', () => {
-  ctx.clearRect(0, 0, canvas.width, canvas.height);
-  ctx.beginPath();
-});
+// clearBtn.addEventListener('click', () => {
+//   ctx.clearRect(0, 0, canvas.width, canvas.height);
+//   ctx.beginPath();
+// });
